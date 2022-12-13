@@ -53,15 +53,29 @@ main {
 article {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 30px;
     width: 100vw;
     align-items: start;
     justify-items: center;
     height: 70vh;
 }
-
+/* gig container class rules */
 .gig-container {
-  height: 40vh;
-  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 37vh;
+  width: 23vw;
   border: 3px solid goldenrod
+}
+
+
+.gig-footer,
+.gig-header {
+  height: 11vh;
+  width:23vw;
+  border: 3px solid brown;
+}
+
+.share-emoji {
+  height: 2vh;
 }
