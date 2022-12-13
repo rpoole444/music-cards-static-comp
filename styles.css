@@ -59,6 +59,7 @@ header {
 main {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   border: 3px solid orange;
   height: 80vh;
   width: 100vw;
@@ -75,7 +76,7 @@ main {
 article {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 100vw;
+    width: 95vw;
     align-items: start;
     justify-items: center;
     height: 70vh;
@@ -85,8 +86,8 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 37vh;
-  width: 23vw;
+  height: 32vh;
+  width: 21vw;
   border: 3px solid goldenrod
 }
 
@@ -94,7 +95,7 @@ article {
 .gig-footer,
 .gig-header {
   height: 17vh;
-  width:23vw;
+  width:21vw;
   border: 3px solid brown;
 }
 
