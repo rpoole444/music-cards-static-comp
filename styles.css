@@ -5,17 +5,19 @@
   padding: 0;
   font-family: "Open Sans";
 }
+
 body {
   display: flex;
   flex-direction: column;
-
   height: 100vh;
   width: 100vw;
 }
+
 header {
   display: flex;
   justify-content: space-between;
   border: 3px solid red;
+  width: 100vw;
 }
 /* header class rules */
 .right-side {
@@ -31,9 +33,35 @@ header {
 .left-side {
   align-items: flex-end;
   display: flex;
-  flex-direction: column;
   height: 20vh;
   justify-content: space-around;
-  width: 30vw;
+  width: 50vw;
   border: 3px solid rgb(43, 226, 107);
+}
+
+/* main class rules */
+
+main {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid orange;
+  height: 80vh;
+  width: 100vw;
+  
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px;
+    width: 100vw;
+    align-items: start;
+    justify-items: center;
+    height: 70vh;
+}
+
+.gig-container {
+  height: 40vh;
+  width: 25vw;
+  border: 3px solid goldenrod
 }
