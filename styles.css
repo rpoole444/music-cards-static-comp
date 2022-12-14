@@ -19,13 +19,37 @@ header {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  background-color: #6d3132;
+  background-image: linear-gradient(
+  165deg,
+  hsl(0deg 65% 15%) 0%,
+  hsl(3deg 62% 16%) 1%,
+  hsl(7deg 58% 17%) 3%,
+  hsl(10deg 55% 19%) 6%,
+  hsl(13deg 52% 20%) 11%,
+  hsl(16deg 49% 22%) 16%,
+  hsl(20deg 46% 23%) 22%,
+  hsl(23deg 43% 25%) 29%,
+  hsl(26deg 40% 26%) 36%,
+  hsl(30deg 38% 28%) 44%,
+  hsl(33deg 35% 30%) 52%,
+  hsl(36deg 33% 32%) 60%,
+  hsl(39deg 30% 33%) 67%,
+  hsl(43deg 28% 35%) 74%,
+  hsl(46deg 26% 37%) 80%,
+  hsl(49deg 24% 39%) 85%,
+  hsl(53deg 22% 41%) 90%,
+  hsl(56deg 20% 43%) 93%,
+  hsl(59deg 18% 45%) 96%,
+  hsl(63deg 16% 47%) 98%,
+  hsl(66deg 14% 49%) 99%,
+  hsl(69deg 13% 52%) 100%
+);
   width: 100vw;
 }
 
 .right-side {
   align-items: flex-end;
-  background-color:#8f9473;
+  background-color:#8F9473;
   display: flex;
   padding-right: 3vw;
   flex-direction: column;
