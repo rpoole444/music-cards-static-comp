@@ -1,6 +1,6 @@
 * {
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 1vh;
   margin: 0;
   padding: 0;
   font-family: "Open Sans";
@@ -111,7 +111,59 @@ article {
   height: 30vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-end;
+  
+}
+
+.one {
+  background-image: url(img/NP2.jpeg);
+  background-size: contain;
+}
+
+.two {
+  background-image: url(img/JoeLovano.jpeg);
+  background-size: contain;
+}
+
+.three {
+  background-image: url(img/SamaraJoy.jpeg);
+  background-size: contain;
+}
+
+.four {
+  background-image: url(img/RonMiles.jpeg);
+  background-size: contain;
+}
+
+.five {
+  background-image: url(img/CecileMclorinSalvant.jpeg);
+  background-size: contain;
+}
+ .six {
+  background-image: url(img/RoyHaynes.jpeg);
+  background-size: contain;
+ }
+
+ .seven {
+  background-image: url(img/LiberationMusicOrchestra.jpeg);
+  background-size: contain;
+ }
+
+ .eight {
+  background-image: url(img/TerrellStafford.jpeg);
+  background-size: contain;
+ }
+
+.one-info {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 6vh;
+  width: 6vw;
+  background-color: beige;
+  border-radius: 15vh;
+
 }
 
 .gig-footer {
