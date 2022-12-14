@@ -1,0 +1,234 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color:#78cabd;
+}
+
+/* header class rules */
+header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-image: linear-gradient(
+  165deg,
+  hsl(0deg 65% 15%) 0%,
+  hsl(3deg 62% 16%) 1%,
+  hsl(7deg 58% 17%) 3%,
+  hsl(10deg 55% 19%) 6%,
+  hsl(13deg 52% 20%) 11%,
+  hsl(16deg 49% 22%) 16%,
+  hsl(20deg 46% 23%) 22%,
+  hsl(23deg 43% 25%) 29%,
+  hsl(26deg 40% 26%) 36%,
+  hsl(30deg 38% 28%) 44%,
+  hsl(33deg 35% 30%) 52%,
+  hsl(36deg 33% 32%) 60%,
+  hsl(39deg 30% 33%) 67%,
+  hsl(43deg 28% 35%) 74%,
+  hsl(46deg 26% 37%) 80%,
+  hsl(49deg 24% 39%) 85%,
+  hsl(53deg 22% 41%) 90%,
+  hsl(56deg 20% 43%) 93%,
+  hsl(59deg 18% 45%) 96%,
+  hsl(63deg 16% 47%) 98%,
+  hsl(66deg 14% 49%) 99%,
+  hsl(69deg 13% 52%) 100%
+);
+  width: 100vw;
+}
+
+.right-side {
+  align-items: flex-end;
+  background-color:#8F9473;
+  display: flex;
+  padding-right: 3vw;
+  flex-direction: column;
+  height: 20vh;
+  justify-content: space-around;
+  width: 30vw;
+}
+
+.right-titles1 {
+  font-size: 20px;
+}
+
+.right-titles2 {
+  font-size: 40px;
+}
+
+.left-side {
+  background-color:#8f9473;
+  font-size: 50px;
+  align-items: center;
+  display: flex;
+  height: 7vh;
+  justify-content: space-around;
+  width: 70vw;
+}
+.left-titles {
+  font-size: 20px;
+}
+
+/* main class rules */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80vh;
+  width: 100vw;
+  
+}
+
+.main-title {
+  font-size: 40px;
+  padding-left: 2vw;
+  background-color: #78cabd;
+}
+
+/* gig container class rules */
+
+article {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 95vw;
+    align-items: start;
+    justify-items: center;
+    height: 70vh;
+    background-color:#78cabd;
+}
+
+.gig-container {
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 32vh;
+  width: 21vw;
+  border-radius: 16px;
+
+}
+
+.gig-footer,
+.gig-header {
+  height: 17vh;
+  width:21vw;
+  background-image: url(img/wood-tables-hard-wood.jpeg);
+  color: #faf7f0;
+}
+
+.gig-header {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.h-text {
+  font-size: 20px;
+  padding: 1vh 1vw 0 0;
+  color: #faf7f0;
+}
+
+.h-image {
+  height: 3vh;
+  padding: 1vh 0 0 1vw;
+  color: #faf7f0;
+}
+
+.gig-main {
+  align-items: center;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main-info {
+  font-size: 16px;
+}
+
+.one {
+  background-image: url(img/NP2.jpeg);
+  background-size: contain;
+}
+
+.two {
+  background-image: url(img/JoeLovano.jpeg);
+  background-size: contain;
+}
+
+.three {
+  background-image: url(img/SamaraJoy.jpeg);
+  background-size: contain;
+}
+
+.four {
+  background-image: url(img/RonMiles.jpeg);
+  background-size: contain;
+}
+
+.five {
+  background-image: url(img/CecileMclorinSalvant.jpeg);
+  background-size: contain;
+}
+ .six {
+  background-image: url(img/RoyHaynes.jpeg);
+  background-size: contain;
+ }
+
+ .seven {
+  background-image: url(img/LiberationMusicOrchestra.jpeg);
+  background-size: contain;
+ }
+
+ .eight {
+  background-image: url(img/TerrellStafford.jpeg);
+  background-size: contain;
+ }
+
+.one-info {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 6vh;
+  width: 8vw;
+  background-color: #b4dbb3;
+  border-radius: 15vh;
+  margin-bottom: 1vh;
+  font-size: 30px;
+}
+
+.gig-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.footer-info {
+  font-size: 20px;
+}
+
+.share-emoji,
+.previous-emoji,
+.trumpet-emoji {
+  height: 5vh;
+  border-radius: 16px;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .2);
+}
