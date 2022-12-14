@@ -205,9 +205,9 @@ article {
   justify-content: center;
   flex-direction: column;
   height: 6vh;
-  width: 8vw;
+  width: 9vw;
   background-color: #b4dbb3;
-  border-radius: 15vh;
+  border-radius: 12vh;
   margin-bottom: 1vh;
   font-size: 30px;
 }
